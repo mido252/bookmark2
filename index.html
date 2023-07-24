@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Mark</title>
+    <!-- page icon -->
+    <link rel="icon" href="./image/Bookmark-PNG-HD.png">
+    <!-- bootstrap style file -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--  my style file -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <h1>Bookmarker</h1>
+<div class="form">
+<h3>
+    <span><i class="fa-solid fa-bookmark"></i></span>
+    Bookmark your favorite sites 
+    <span><i class="fa-solid fa-bookmark"></i></span>
+</h3>
+    <label for="siteName"><span><i class="fa-solid fa-book-bookmark"></i></span>Site Name</label>
+    <input type="text" id="siteName" placeholder="Bookmark Name">
+
+    <label for="siteLink"><span><i class="fa-solid fa-link"></i></span>Site URL</label>
+    <input type="text" id="siteLink" placeholder="Website URL">
+    
+    <button" class="btn btn-danger" id="submitBtn">Submit</button>
+</div>
+
+<div id="deleteAll"></div>
+<table id="show" class="table text-center text-capitalize mt-4 container">
+    <tr>
+        <th> index </th>
+        <th> website  </th>
+        <th> visit </th>
+        <th> delete </th>
+    </tr>
+    <tbody id="tbody">
+
+    </tbody>
+     <!-- <tr>
+        <td>1</td>
+        <td>Git hub</td>
+        <td><a href="" class="btn btn-outline-success text-capitalize"> <span><i class="fa-solid fa-eye p-1"></i></span>visit</a></td>
+        <td>
+            <button class="btn btn-danger text-capitalize">
+                <span><i class="fa-solid fa-trash p-1"></i></span>
+                delete
+            </button>
+        </td>
+    </tr> -->
+</table>
+<script src="./javascript/bootstrap.bundle.min.js"></script>
+<script src="./javascript/main.js"></script>
+</body>
+</html>
